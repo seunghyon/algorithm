@@ -45,6 +45,6 @@ def longestPalidrome2(s):
     return result
 
 
-s = "cbbd"#"babad"
+s = "babad"#"cbbd"
 print(longestPalidrome2(s))
 
