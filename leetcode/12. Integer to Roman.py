@@ -20,6 +20,7 @@ def intToRoman(num):
     for key, value in dic.items():
         temp = num // key
         result += (temp * value)
+        print(result)
         num %= key
 
     return result
