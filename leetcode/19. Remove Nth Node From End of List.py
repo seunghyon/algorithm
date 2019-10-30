@@ -10,6 +10,7 @@ class Solution:
 
         length = 0
         node = head
+        
         while node:
             length += 1
             node = node.next
@@ -17,6 +18,7 @@ class Solution:
         dummy = ListNode(None)
         dummy.next = head
         node = dummy
+        
         while length > n :
             node = node.next
             length -= 1
